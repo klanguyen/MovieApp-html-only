@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2d6a29-1e8a-4a93-9424-2feea6bf2565" name="Default Changelist" comment="" />
+    <list default="true" id="be2d6a29-1e8a-4a93-9424-2feea6bf2565" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/MovieAppDB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -147,7 +150,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567020327191</updated>
       <workItem from="1567020332359" duration="3325000" />
-      <workItem from="1567630763588" duration="196000" />
+      <workItem from="1567630763588" duration="300000" />
+      <workItem from="1568231081648" duration="1314000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Database Folder From Derby to IntelliJ">
       <created>1567630855951</created>
@@ -163,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567630889499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Embedding a Derby Database in Movie App">
+      <created>1567630987314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567630987314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +185,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -183,6 +196,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Copy Database Folder From Derby to IntelliJ" />
     <MESSAGE value="Add Derby Driver Files to IntelliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Derby Driver Files to IntelliJ" />
+    <MESSAGE value="Embedding a Derby Database in Movie App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Embedding a Derby Database in Movie App" />
   </component>
 </project>
