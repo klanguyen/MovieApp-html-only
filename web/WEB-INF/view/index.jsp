@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- font awesome -->
@@ -16,20 +15,18 @@
             <h1 class="display-4"><i class="fas fa-couch"></i> POPCORN</h1>
         </div>
     </div>
-    <!--nav bar-->
+
     <ul class="nav nav-pills nav-fill justify-content-center">
         <li class="nav-item">
-            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="genre-list.html">Genres</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="action.html">Recommendations</a>
+            <a class="nav-link" href="action.html">Recommendations</a>
         </li>
     </ul>
-    <!--content-->
-
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
