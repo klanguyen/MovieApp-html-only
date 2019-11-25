@@ -31,7 +31,7 @@ public class SearchServlet extends HttpServlet {
 
             conn = DriverManager.getConnection(DRIVER_NAME + path, USERNAME, PW);
 
-            String sql = "SELECT position_id FROM FilmCrewPositions WHERE description = ?";
+            String sql = "SELECT position_id FROM POSITION WHERE description = ?";
 
             pstmt = conn.prepareStatement(sql);
 
