@@ -12,7 +12,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/lib/derbyshared.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/lib/derbytools.jar" />
           <element id="directory" name="MovieAppDB">
-            <element id="dir-copy" path="$PROJECT_DIR$/lib/MovieAppDB" />
+            <element id="dir-copy" path="$PROJECT_DIR$/MovieAppDB" />
           </element>
           <element id="library" level="application" name="Spring" />
           <element id="library" level="project" name="Spring Batch-2.2.6" />
