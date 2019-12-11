@@ -1,10 +1,9 @@
-package service;
+package edu.wctc.service;
 
-import dao.MovieDAO;
-import hibernate.entity.Movie;
+import edu.wctc.dao.*;
+import edu.wctc.entity.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.MultipartFile;
 
 import javax.transaction.Transactional;
 import java.util.List;

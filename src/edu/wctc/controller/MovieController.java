@@ -1,6 +1,6 @@
-package controller;
+package edu.wctc.controller;
 
-import hibernate.entity.Movie;
+import edu.wctc.entity.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.stereotype.Controller;
@@ -8,10 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
-import service.GenreService;
-import service.MovieService;
+import edu.wctc.service.GenreService;
+import edu.wctc.service.MovieService;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -30,7 +29,7 @@ public class MovieController {
 
         theModel.addAttribute("movies", theList);
 
-        return "/list-movies";
+        return "list-movies";
     }
 
     @GetMapping("/search")

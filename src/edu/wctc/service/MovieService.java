@@ -1,6 +1,6 @@
-package service;
+package edu.wctc.service;
 
-import hibernate.entity.Movie;
+import edu.wctc.entity.Movie;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

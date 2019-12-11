@@ -1,6 +1,6 @@
-package dao;
+package edu.wctc.dao;
 
-import hibernate.entity.Genre;
+import edu.wctc.entity.Genre;
 
 import java.util.List;
 

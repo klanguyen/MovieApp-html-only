@@ -1,6 +1,6 @@
-package service;
+package edu.wctc.service;
 
-import hibernate.entity.Genre;
+import edu.wctc.entity.Genre;
 
 import java.util.List;
 

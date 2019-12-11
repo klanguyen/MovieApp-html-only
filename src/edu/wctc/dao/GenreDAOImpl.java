@@ -1,15 +1,12 @@
-package service;
+package edu.wctc.dao;
 
-import dao.GenreDAO;
-import hibernate.entity.Genre;
+import edu.wctc.entity.Genre;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.List;
 
-@Service
-public class GenreServiceImpl implements GenreService {
+public class GenreDAOImpl implements GenreDAO {
     @Autowired
     private GenreDAO genreDAO;
 

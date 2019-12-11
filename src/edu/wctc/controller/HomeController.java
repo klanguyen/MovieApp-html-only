@@ -1,4 +1,4 @@
-package controller;
+package edu.wctc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 public class HomeController {
     @RequestMapping("/")
     public String showHomePage(){
-        return "/index";
+        return "index";
     }
 
     @RequestMapping("/error")

@@ -25,7 +25,7 @@
     <!-- Hibernate session factory bean -->
     <bean id="mySessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="dataSource" ref="myDataSource"/>
-        <property name="packagesToScan" value="hibernate.entity" />
+        <property name="packagesToScan" value="edu.wctc.entity" />
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.DerbyTenSevenDialect</prop>
@@ -59,7 +59,7 @@
 
     <!-- END NEW HIBERNATE CONFIGURATION -->
 
-    <context:component-scan base-package="springmvc"/>
+    <context:component-scan base-package="edu.wctc"/>
 
     <mvc:annotation-driven/>
 

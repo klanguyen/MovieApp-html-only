@@ -18,13 +18,13 @@
 
     <ul class="nav nav-pills nav-fill justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link active" href="#">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="genre-list.html">Genres</a>
+            <a class="nav-link" href="#">Genres</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="action.html">Recommendations</a>
+            <a class="nav-link" href="#">Recommendations</a>
         </li>
     </ul>
 </div>

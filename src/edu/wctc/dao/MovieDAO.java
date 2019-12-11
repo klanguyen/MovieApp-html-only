@@ -1,6 +1,6 @@
-package dao;
+package edu.wctc.dao;
 
-import hibernate.entity.Movie;
+import edu.wctc.entity.Movie;
 
 import java.util.List;
 
